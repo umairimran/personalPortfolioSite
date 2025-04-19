@@ -14,6 +14,7 @@ import weatherImg from "@/public/weather.jpg";
 import crimeImg from "@/public/crime.png";
 import ecommerceImg from "@/public/ecommerce.png";
 import strokeImg from "@/public/heartStroke.jpg";
+import profileImg from "@/public/profile.jpg";
 // Navigation links
 export const LINKS = [
   {

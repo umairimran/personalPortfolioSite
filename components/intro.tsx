@@ -12,6 +12,7 @@ import { HiDownload } from "react-icons/hi";
 import { EXTRA_LINKS, OWNER_NAME } from "@/constants";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useSectionInView } from "@/lib/hooks";
+import profileImg from "@/public/profile.jpg";
 
 // Define the Intro component.
 const Intro = () => {
@@ -37,7 +38,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src="/profile.jpg"
+              src={profileImg}
               alt={`${OWNER_NAME.split(" ")[0]} portrait`}
               width={192}
               height={192}
