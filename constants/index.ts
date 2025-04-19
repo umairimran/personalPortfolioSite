@@ -6,8 +6,14 @@ import { SiNextdotjs } from "react-icons/si";
 
 import carhubImg from "@/public/carhub.png";
 import realtorImg from "@/public/realtor.png";
+import medicalImg from "@/public/medical.jpg";
+import image1 from "@/public/image1.png";
+import firePredictionImg from "@/public/fire.png";
+import leasingImg from "@/public/leasing.jpg";
+import weatherImg from "@/public/weather.jpg";
+import crimeImg from "@/public/crime.png";
 import ecommerceImg from "@/public/ecommerce.png";
-
+import strokeImg from "@/public/heartStroke.jpg";
 // Navigation links
 export const LINKS = [
   {
@@ -38,95 +44,128 @@ export const LINKS = [
 
 // External links
 export const EXTRA_LINKS = {
-  linkedin: "https://www.linkedin.com/in/sanidhyy",
-  github: "https://github.com/sanidhyy",
+  linkedin: "https://www.linkedin.com/in/umairimran627/",
+  github: "https://github.com/umairimran",
   resume: "/resume.pdf",
   source_code: "https://github.com/sanidhyy/portfolio",
-  email: "sanidhya.verma12345@gmail.com",
+  email: "umairimran627@gmail.com",
 } as const;
 
 // Data for work experience
 export const EXPERIENCES_DATA = [
+
   {
-    title: "Passed High School",
-    description:
-      "Completed my high school curriculum, gaining a solid foundation in various subjects and essential skills.",
+    title: "Bs-Data Science",
+    description: "FAST UNIVERSITY. Courses: Data Mining, Data Science, Databases, Data Structures, Big Data, Software Engineering, OOP, NLP, Artificial Intelligence, Parallel Distributed Computing, Data Analysis and Visualization.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "Ongoing",
   },
   {
-    title: "React.js Bootcamp",
-    description:
-      "Successfully completed an intensive 1-month React.js Developer Bootcamp. Acquired expertise in React components, state management with Redux, and interacting with RESTful APIs.",
+    title: "ML and Data Science Intern",
+    description: "Started as an intern. Developed Speech to Speech AI Chatbot (Backend Part using FAST API, Deep Gram Api, Groq Api Integration). Accomplished all tasks as an intern and got exceptional intern certificate. Completed all assigned tasks while simultaneously mentoring fellow interns, resolving queries, and guiding project development. Company Website: https://analyzinn.com/",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "06/2025 - 08/2025",
   },
   {
-    title: "Freelancer React.js Developer",
-    description:
-      "Worked as a freelance React.js Developer, I have collaborated with various clients to create responsive and dynamic web applications.",
-    icon: React.createElement(FaReact),
-    date: "2023 - 2024",
+    title: "AI Developer",
+    description: "I did AI integration to generate compliments about customers using computer vision. Decreased inference time by using image preprocessing techniques from 8 seconds to 2 seconds. Integrated WhatsApp for AI Chat Feature. Integrated AI compliment generation using computer vision with FAST API.",
+    icon: React.createElement(CgWorkAlt),
+    date: "03/2025 - 03/2025",
   },
   {
-    title: "Jaro Dev Studio",
-    description:
-      "Currently working as a Full-stack Next.js Developer, building responsive and dynamic web applications using Next.js, Tailwind CSS and OpenAI.",
-    icon: React.createElement(SiNextdotjs),
-    date: "2024 - present",
+    title: "Deputy Softec (Team Conference)",
+    description: "Led a team of 4 persons. Managed conference schedules. Received the Best Deputy award for this position.",
+    icon: React.createElement(CgWorkAlt),
+    date: "01/2023 - 02/2023",
   },
+ 
 ] as const;
 
 // Data for projects
 export const PROJECTS_DATA = [
   {
-    title: "CarHub",
-    description:
-      "A web app that is built using NextJS and enables users to quickly search and obtain information about cars.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Headless UI"],
-    imageUrl: carhubImg,
-    projectUrl: "https://carhb.vercel.app/",
+    title: "FirePredictionAnalysis",
+    description: "Implemented 5 ML models for fire prediction, achieving high precision with LSTM (0.9766). Utilized spatial data and UNet for fire spread prediction. (arXiv:2306.05144)",
+    tags: ["RNN", "LSTM", "Transformer", "BiLSTM", "DNN", "UNet"],
+    imageUrl: firePredictionImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/FirePredictionAnalysis" // Update with actual project URL
   },
   {
-    title: "Realtor",
-    description:
-      "Buy and rent homes for everyone. I was the front-end developer. It has features like filtering, sorting, and pagination.",
-    tags: ["React", "Chakra UI", "Next.js", "Framer Motion", "React Icons"],
-    imageUrl: realtorImg,
-    projectUrl: "https://real-estate-app-react.vercel.app/",
+    title: "RAG Based Leasing AI Chatbot",
+    description: "Developed RAG-based AI chatbot for leasing documents using FastAPI, Vector Database, and Streamlit for frontend.",
+    tags: ["FastAPI", "Vector Database", "Streamlit"],
+    imageUrl: leasingImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/LEASING_AI_CHATBOT" // Update with actual project URL
   },
   {
-    title: "ECommerce Store",
-    description:
-      "A NextJS-based eCommerce store that allows users to order different products. It supports real-time payments using Stripe.",
-    tags: ["React", "Next.js", "Sanity", "React Router", "Stripe"],
-    imageUrl: ecommerceImg,
-    projectUrl: "https://ecommerce-app-next.vercel.app/",
+    title: "Health Care Modelling Project",
+    description: "Used LSTM, ARIMA, and SARIMA for WHO data modeling. Predicted obesity, smoking, and alcohol levels.",
+    tags: ["LSTM", "ARIMA", "SARIMA", "Regression", "Streamlit"],
+    imageUrl: medicalImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/health_care_ML_project" // Update with actual project URL
+  },
+  {
+    title: "Rag Based Code Explorer",
+    description: "Developed a semantic code search and analysis system supporting multiple languages using CodeBERT for embeddings and ChromaDB for vector storage. Enabled natural language querying with a two-pass ranking engine (embedding similarity + keyword match) and Tree-sitter for multilanguage parsing. Built REST APIs with FastAPI, supporting code indexing, search, and auto-description with efficient multi-threaded processing.",
+    tags: ["CodeBERT", "ChromaDB", "FastAPI", "Tree-sitter"],
+    imageUrl: image1, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/GITHUB_REPOSITORY_EXPLORER" // Update with actual project URL
+  },
+  {
+    title: "CrimeGuard",
+    description: "Practiced software development practices including GitHub, team management, and large-scale software management. Developed a C application with SQLite as the database backend.",
+    tags: ["C", "SQLite", "GitHub", "Team Management"],
+    imageUrl: crimeImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/crimeGuardFinal" // Update with actual project URL
+  },
+
+ 
+  {
+    title: "Weather Sense",
+    description: "Analyzes large-scale US weather data (1991–2021) using PySpark for cleaning, EDA, and predicting precipitation and temperature trends. Employs Multi-Linear Regression for forecasting.",
+    tags: ["PySpark", "EDA", "Multi-Linear Regression"],
+    imageUrl: weatherImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/WeatherSense" // Update with actual project URL
+  },
+  {
+    title: "Ecommerce Website",
+    description: "Developed a high-performance website as a database course project. Technologies used: Python, SQLite, Bootstrap.",
+    tags: ["Python", "SQLite", "Bootstrap"],
+    imageUrl: ecommerceImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/ebayProject" // Update with actual project URL
+  },
+  {
+    title: "Stroke Risk Prediction",
+    description: "Implemented a K-Nearest Neighbors (KNN) classifier from scratch and compared it with scikit-learn's KNN to predict stroke risk based on health data. Includes data preprocessing, exploratory analysis, model implementation, and evaluation.",
+    tags: ["KNN", "scikit-learn", "Data Preprocessing", "Exploratory Analysis"],
+    imageUrl: strokeImg, // Update with actual image path
+    projectUrl: "https://github.com/umairimran/Stroke-Risk-Prediction" // Update with actual project URL
   },
 ] as const;
 
 // Data for skills
 export const SKILLS_DATA = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Shadcn UI",
-  "Three.js",
-  "Framer Motion",
-  "Prisma",
-  "MySQL",
-  "PostgreSQL",
-  "Redux",
-  "Express",
-  "Python",
-  "Django",
+  "PANDAS",
+  "PYTHON",
+  "FAST API",
+  "FLASK",
+  "DOCKER",
+  "TENSORFLOW",
+  "DATA MINING",
+  "GIT/GITHUB",
+  "MACHINE LEARNING",
+  "DEEP LEARNING",
+  "NATURAL LANGUAGE PROCESSING",
+  "Chatbot Development",
+  "RAG",
+  "API Integration",
+  "Web Development",
+  "Database Management",
+  
+  "Docker",
+  
+  
 ] as const;
 
 // Owner name
-export const OWNER_NAME = "Sanidhya Kumar Verma";
+export const OWNER_NAME = "Umair Imran";

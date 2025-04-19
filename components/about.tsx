@@ -28,27 +28,7 @@ const About = () => {
 
       {/* Display a paragraph with information about the user's background and interests. */}
       <p className="mb-3">
-        After passing out my <b className="font-medium">High School</b>, I
-        decided to pursue my passion for programming. I enrolled in a coding
-        bootcamp and learned{" "}
-        <b className="font-medium">full-stack web development</b>.{" "}
-        <i className="italic">My favorite part of programming</i> is the
-        problem-solving aspect. I <u className="underline">love</u> the feeling
-        of finally figuring out a solution to a problem. My core stack is{" "}
-        <b className="font-medium">React, Next.js, Node.js, and MySQL</b>. I am
-        also familiar with TypeScript and Prisma. I am always looking to learn
-        new technologies. I am currently looking for a{" "}
-        <b className="font-medium">full-time position</b> as a software
-        developer.
-      </p>
-
-      {/* Display another paragraph about the user's interests and hobbies. */}
-      <p>
-        <i className="italic">When I'm not coding</i>, I enjoy playing video
-        games, watching movies, and reading novels. I also enjoy{" "}
-        <b className="font-medium">learning new things</b>. I am currently
-        learning about <b className="font-medium">astronomy and psychology</b>.
-        I'm also learning how to build and program robots.
+        Data Science student at FAST NUCES with a strong foundation in Python, data analysis, machine learning, deep learning, and model optimization. Proficient in SQL and experienced in developing impactful deep learning projects. Passionate about solving complex real-world problems through data-driven approaches and leveraging advanced data science techniques.
       </p>
     </motion.section>
   );

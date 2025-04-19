@@ -1,7 +1,6 @@
 // Importing necessary components from the specified location ("@/components").
 import {
   About,
-  Contact,
   Experience,
   Intro,
   Projects,
@@ -31,8 +30,7 @@ export default function Home() {
       {/* The Experience component displays work or education experience. */}
       <Experience />
 
-      {/* The Contact component allows users to get in touch. */}
-      <Contact />
+
     </main>
   );
 }
